@@ -39,7 +39,7 @@ function listSnippets() {
 	});
 	var $cancel = jQuery('<span/>', {
 		text : 'Cancel',
-		class : 'slash-action nice small radius red button'
+		class : 'slash-action nice small radius white button'
 	});
 	var $delete = jQuery('<a/>', {
 		text : 'Delete',
@@ -54,8 +54,9 @@ function listSnippets() {
 
 	$buttons.append($new);
 	$buttons.append($delete);
-	$buttons.append($cancel);
 	$buttons.append($save);
+	$buttons.append($cancel);
+	
 	
 	
 	$save.click(function() {
@@ -160,14 +161,15 @@ function showSnippets(groupId) {
 	
 	var $buttons = jQuery('<div/>');
 	$('#snippets').append($buttons);
+	var $cancel = jQuery('<span/>', {
+		text : 'Cancel',
+		class : 'slash-action nice small radius white button'
+	});
 	var $save = jQuery('<span/>', {
 		text : 'Save',
 		class : 'slash-action nice small radius blue button'
 	});
-	var $cancel = jQuery('<span/>', {
-		text : 'Cancel',
-		class : 'slash-action nice small radius red button'
-	});
+	
 	var $delete = jQuery('<a/>', {
 		text : 'Delete',
 		class : 'slash-action',
@@ -181,8 +183,8 @@ function showSnippets(groupId) {
 
 	$buttons.append($new);
 	$buttons.append($delete);
-	$buttons.append($cancel);
 	$buttons.append($save);
+	$buttons.append($cancel);
 	
 	
 	$save.click(function() {

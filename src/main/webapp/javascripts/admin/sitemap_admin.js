@@ -59,7 +59,7 @@ function showSitemap(sitemapId) {
 	});
 	var $cancel = jQuery('<span/>', {
 		text : 'Cancel',
-		class : 'slash-action nice small radius red button'
+		class : 'slash-action nice small radius white button'
 	});
 	var $delete = jQuery('<a/>', {
 		text : 'Delete',
@@ -74,8 +74,9 @@ function showSitemap(sitemapId) {
 
 	$buttons.append($new);
 	$buttons.append($delete);
-	$buttons.append($cancel);
 	$buttons.append($save);
+	$buttons.append($cancel);
+	
 	
 	
 	$save.click(function() {

@@ -33,15 +33,16 @@
 	}
 	var $buttons = jQuery('<div/>');
 	$('#page').append($buttons);
+	var $cancel = jQuery('<span/>', { text: 'Cancel', class :'slash-action nice small radius white button'});
 	var $save = jQuery('<span/>', { text: 'Save', class :'slash-action nice small radius blue button'});
-	var $cancel = jQuery('<span/>', { text: 'Cancel', class :'slash-action nice small radius red button'});
 	var $delete = jQuery('<a/>', { text: 'Delete', class :'slash-action','href' :'#'}); 	
 	var $new = jQuery('<a/>', { text: 'New', class :'slash-action','href' :'#'});
 	
 	$buttons.append($new);
 	$buttons.append($delete);
-	$buttons.append($cancel);
 	$buttons.append($save);
+	$buttons.append($cancel);
+	
 	$save.click(function(){
 		
 		$.ajax({
