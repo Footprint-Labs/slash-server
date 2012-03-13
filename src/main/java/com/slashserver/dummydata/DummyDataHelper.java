@@ -116,7 +116,7 @@ public class DummyDataHelper {
 				"        <script src='http://html5shiv.googlecode.com/svn/trunk/html5.js'></script>\n"+
 				"   <![endif]-->\n"+
 				" +\n"+
-				" </server-header/></head><h1>This header is in template</h1></server/></div>" +
+				" <slash-server-header/></head><h1>This header is in template</h1><slash-server/></div>" +
 				"<!-- Included JS Files -->\n"+
 				"<script src='/server/javascripts/jquery.min.js'></script>\n"+
 				"<script src='/server/javascripts/jquery.reveal.js'></script>\n"+

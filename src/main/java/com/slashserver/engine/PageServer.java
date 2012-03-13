@@ -98,7 +98,7 @@ public class PageServer {
 	
 
 	private String stickThePageIntoTemplate(String page,String headerContent,String footerContent,String template){
-		return splitAndInject(page, "</server/>",splitAndInject(headerContent, "</server-header/>", splitAndInject(footerContent,"</server-footer/>",template)));
+		return splitAndInject(page, "<slash-server/>",splitAndInject(headerContent, "<slash-server-header/>", splitAndInject(footerContent,"<slash-server-footer/>",template)));
 		
 	}
 	
