@@ -1,6 +1,10 @@
 ![/server logo](https://github.com/Footprint-Labs/slash-server/blob/master/doc/banner_logo.png?raw=true)
 ## What is /server
-**/server** is an aggregation platform for building websites from distributed sources and programming languages.  The idea was inspired by OpenSocial, specifically the gadget container where gadgets are aggregated and put together on a single page.  However unlike most OpenSocial containers, /server aggregates the content server side rather than in the browser.  We can do this because we make the assumption all the content providers come from a trusted source a luxury most OpenSocial containers can't make.
+**/server** is an aggregation platform for building websites from distributed sources and programming languages, optimised for both desktop and mobile browsers. 
+
+The idea was inspired by OpenSocial, specifically the gadget container where gadgets are aggregated and put together on a single page.  However unlike most OpenSocial containers, /server aggregates the content server side rather than in the browser.  We can do this because we make the assumption all the content providers come from a trusted source a luxury most OpenSocial containers can't make.
+
+We've also decoupled the layout of a page and it's components from code allowing non-technical people to build and manage websites and freeing up the developers to focus on building dynamic components.  Thanks to the Zurb Foundation framework your sites will also look great on mobile devices.
 
 ### Lets start with how a /server page is put together
 
